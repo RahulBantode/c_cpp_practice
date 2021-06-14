@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a=20,b=31,c=15,d=9,e=23;
+	
+	cout<<"Maximum no="<<(a>b && a>c && a>d && a>e ?a:(b>c && b>d && b>e ?b:(c>d && c>e ?c:(d>e?d:e))))<<endl;
+	return 0;
+}
+		
+
+//Maximum between three numbers

@@ -1,0 +1,24 @@
+#include<iostream>
+
+int main()
+{
+	int a;
+	int b;
+
+	//float z=float(a)/b;
+	std::cout<<"Enter a and b=";
+	std::cin>>a>>b;
+	
+	std::cout<<"a="<<a/float(b);
+	return 0;
+}
+
+/*In this program we give the type casting like cin>>(float)b; which are invalid because error occur is mismatched type
+  cin aquires only varibles means actual cin has point to the memory which acquires the address of the variable and by
+  passing the varible the value is stored on that varible because cin point to the varible
+
+  syntax for accessing namespace
+
+	1 std::cout<<
+	2 using namespace std;   write on the top outside the main after header file... in pr2 we use this second option 
+				 by using this option our work has to less of writing....
